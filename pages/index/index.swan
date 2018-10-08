@@ -5,47 +5,36 @@
 		</swiper-item>
 	</block>
 </swiper>
-<view class="shearch">
-	<view class="city" bindtap="doCity">{{city}}</view>
-	<view class="input">
-		<input maxlength="20" bindinput="search" placeholder="请输入景区" />
-		<view class="searchBtn" bindtap="doSearch">搜索</view>
+<view class="list">
+	<view class="imgList">
+		<image src="/images/gpxz.png"/>	
+	</view>
+	<view class="imgList">
+		<image src="/images/gpxz.png"/>	
+	</view>
+	<view class="imgList">
+		<image src="/images/gpxz.png"/>	
 	</view>
 </view>
-<view>
-	<navigator url="/pages/shop/shop?id={{item.id}}" class="list" s-for="{{goods}}">
-		<image class="smallImg" src="{{item.logo}}" mode="aspectFill" />
-		<view class="content">
-			<view class="name">
-				{{item.name}}
-			</view>
-			<view class="child">
-				<view class="addr">
-					{{item.location}}
-				</view>
-				<view class="price">
-					￥{{item.minPrice}}<text>起</text>
-				</view>
-			</view>
-			<view class="km">约{{item.distance}}km</view>
-		</view>
-	</navigator>
-</view>
-<view class="{{showCity=='1'?'getCity':'noCity'}}">
-	<view class="getCityList" s-for="{{cityList}}" bindtap="setCity" data-city="{{cityList[index].name}}">
-		<view>{{cityList[index].name}}</view>
-		<image src="../../images/right.png">
+<view class="list">
+	<view class="imgList">
+		<image src="/images/gpxz.png"/>	
 	</view>
-	<view s-if="{{showloade==1}}">
-		<image class="loading" src="../../images/loading.png" mode="aspectFill" />
+	<view class="imgList">
+		<image src="/images/gpxz.png"/>	
+	</view>
+	<view class="imgList">
+		<image src="/images/gpxz.png"/>	
 	</view>
 </view>
-<view s-if="{{noMore==1}}">
-	<image class="loading" src="../../images/loading.png" mode="aspectFill" />
-</view>
-<view s-if="{{noMore==2}}">
-	<image class="loading" src="../../images/noMore.png" mode="aspectFill" />
-</view>
-<view s-if="{{noMore==3}}">
-	<image class="loading" src="../../images/noMore.png" mode="aspectFill" />
+<view class="list">
+	<view class="imgList">
+		<image src="/images/gpxz.png"/>	
+	</view>
+	<view class="imgList">
+		<image src="/images/gpxz.png"/>	
+	</view>
+	<view class="imgList">
+		<image src="/images/gpxz.png"/>	
+	</view>
 </view>
