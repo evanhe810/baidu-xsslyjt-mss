@@ -1,0 +1,39 @@
+<swiper indicator-dots="true" autoplay="true" interval="3000" duration="500">
+	<block>
+		<swiper-item>
+			<image src="{{goods.cover.filepath}}" class="slide-image" mode="aspectFill" width="100%" />
+		</swiper-item>
+	</block>
+</swiper>
+<view class="head">
+	<view class="msg">
+		<view>
+			<text class="price">￥{{goods.itemStatus.price}}</text>
+			<text class="noPrice">￥{{goods.itemStatus.originPrice}}</text>
+		</view>
+		<view class="name">
+			{{goods.name}}
+		</view>
+	</view>
+	
+</view>
+<view class="fwb">
+	<rich-text nodes="{{nodes}}"></rich-text>
+</view>
+<view class="footer">
+
+	<view class="footerList">
+
+		<view class="call" bindtap="call">
+			<view><image src="../../images/goods/chat.png" mode="aspectFill" /></view>
+			<view>客服</view>
+		</view>
+		<view class="call" bindtap="call">
+			<view><image src="../../images/phone.png" mode="aspectFill" /></view>
+			<view>客服</view>
+		</view>
+	</view>
+	<view class="toBuy" bindtap="call">
+		电话咨询
+	</view>
+</view>

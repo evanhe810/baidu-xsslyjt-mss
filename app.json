@@ -1,0 +1,23 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/shop/shop",
+        "pages/goods/goods",
+        "pages/order_list/order_list",
+        "pages/profile/profile",
+        "pages/login/login"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#3ac939",
+        "navigationBarTitleText": "鸣沙山月牙泉门票订购",
+        "navigationBarTextStyle": "white",
+        "backgroundTextStyle": "white",
+        "enablePullDownRefresh": false
+    },
+    "networkTimeout": {
+        "request": 30000,
+        "connectSocket": 10000,
+        "uploadFile": 10000,
+        "downloadFile": 10000
+    }
+}
