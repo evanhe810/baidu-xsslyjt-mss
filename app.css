@@ -1,3 +1,139 @@
 page{
-  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif,"微软雅黑";
+   font-size: 36rpx;
+}
+/*复用列表*/
+.content{
+    padding: 0 20rpx;
+}
+.kong{
+    width:4rpx;
+    height:70rpx;
+    background: #f4f4f4;
+}
+.gray{
+    width:100%;
+    height:20rpx;
+    background: #f4f4f4;
+}
+.dataMsg{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20rpx;
+}
+.dis{
+    display: -webkit-box; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp:2; 
+    color:#999;
+    font-size: 32rpx;
+    line-height: 40rpx;
+    min-height:70rpx;
+    margin: 10rpx 0;
+    letter-spacing: 1px;
+}
+.truePrice{
+    color:#f00;
+    font-size: 40rpx;
+}
+.msgCont{
+    width:560rpx;
+    margin-left: 20rpx;
+}
+.msgCont2{
+    width:560rpx;
+    margin-right: 20rpx;
+}
+.imgList image{
+    width:230rpx;
+    height:200rpx;
+   
+}
+.priceMsg{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.msgList{
+    display: flex;
+    margin-bottom: 20rpx;
+    
+}
+.msgList2{
+border-bottom: 1px solid #f4f4f4;
+ margin-bottom: 0rpx;
+padding: 20rpx 0;
+}
+.listImg{
+    width:200rpx;
+    height:185rpx;
+    background-position: center;
+    background-size:cover; 
+    border-radius: 8rpx;
+    box-shadow: 1px 2px 5px #ccc;
+}
+.name{
+    color:#333;
+   
+    font-size: 32rpx;
+    letter-spacing: 4rpx;
+    display: -webkit-box; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp:1; 
+}
+.name2{
+    color:#333;
+    min-height: 120rpx;
+    line-height: 40rpx;
+    font-size: 32rpx;
+    letter-spacing: 4rpx;
+    display: -webkit-box; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp:3; 
+}
+.aboutTime{
+    width:100px;
+    height:50rpx;
+    overflow: hidden; 
+    text-align: center;
+}
+.aboutMsg{
+    font-size: 30rpx;
+    line-height: 50rpx;
+     color: #999;
+}
+
+.dy{
+    border-radius: 20rpx;
+    height:40rpx;
+    text-align: center;
+    line-height: 42rpx;
+    background: #fcce2d;
+    color:#fff;
+    box-shadow: 1px 2px 1px #ccc;
+    width:120rpx;
+    font-size: 30rpx;
+}
+.articleImg{
+    background-size:cover; 
+    background-position: center;
+    width:100%;
+    height:60rpx;
+    border-bottom: 1px solid #f4f4f4;
+    margin-bottom: 20rpx;
+}
+.articleImg2{
+    margin-bottom:0; 
+}
+.more image{
+    margin: 10rpx 0;
+    width:100%;
+    height:35rpx;
 }

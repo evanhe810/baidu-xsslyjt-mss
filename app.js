@@ -1,4 +1,4 @@
-const httpUrl = 'https://api.xsslyjt.com';
+const httpUrl = 'https://user.xisslvyou.com';
 const storeId = 1770;
 App({
     onLaunch(event) {

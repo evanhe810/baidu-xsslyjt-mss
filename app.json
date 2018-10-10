@@ -5,7 +5,19 @@
         "pages/goods/goods",
         "pages/order_list/order_list",
         "pages/profile/profile",
-        "pages/login/login"
+        "pages/login/login",
+        "pages/group/tic/index",
+        "pages/group/hotel/index",
+        "pages/group/fun/index",
+        "pages/group/tour/index",
+        "pages/group/message/index",
+        "pages/group/guide/index",
+        "pages/group/parking/index",
+        "pages/group/live/index",
+        "pages/technology/index",
+        "pages/personal/index/index",
+         "pages/introduce/index"
+        
     ],
     "window": {
         "navigationBarBackgroundColor": "#3ac939",
@@ -19,5 +31,33 @@
         "connectSocket": 10000,
         "uploadFile": 10000,
         "downloadFile": 10000
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "images/index2.png",
+                "selectedIconPath": "images/index.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/introduce/index",
+                "iconPath": "images/hotel2.png",
+                "selectedIconPath": "images/hotel.png",
+                "text": "景区介绍"
+            },
+            {
+                "pagePath": "pages/technology/index",
+                "iconPath": "images/news2.png",
+                "selectedIconPath": "images/news.png",
+                "text": "新闻资讯"
+            },
+            {
+                "pagePath": "pages/personal/index/index",
+                "iconPath": "images/personal2.png",
+                "selectedIconPath": "images/personal.png",
+                "text": "个人中心"
+            }
+        ]
     }
 }

@@ -5,36 +5,111 @@
 		</swiper-item>
 	</block>
 </swiper>
-<view class="list">
-	<view class="imgList">
-		<image src="/images/gpxz.png"/>	
-	</view>
-	<view class="imgList">
-		<image src="/images/gpxz.png"/>	
-	</view>
-	<view class="imgList">
-		<image src="/images/gpxz.png"/>	
+<view class="weather">
+	<view class="days">09-8 星期二</view>
+	<view class="kong"></view>
+	<view>阴天18°C</view>
+</view>
+<view class="gray">
+</view>
+<view class="notice">
+	<view class="cc rowup">
+		<view class="item">
+			<image src="/images/index/addr.png" />
+			<view class="itemCont">
+				国家认可更健康进口价格困扰国家认可更健康进口价格困扰国家认可更健康进口价格困扰国家认可更健康进口价格困扰国家认可更健康进口价格困扰国家认可更健康进口价格困扰国家认可更健康进口价格困扰
+			</view>
+		</view>
+		<view class="item">
+			<image src="/images/index/addr.png" />
+			<view class="itemCont">
+				国家认可更健康进口价格困扰国家认可更健康进口价格困扰国家认可更健康进口价格困扰国家认可更健康进口价格困扰国家认可更健康进口价格困扰国家认可更健康进口价格困扰国家认可更健康进口价格困扰
+			</view>
+		</view>
+		<view class="item">
+			<image src="/images/index/addr.png" />
+			<view class="itemCont">
+				国家认可更健康进口价格困扰国家认可更健康进口价格困扰国家认可更健康进口价格困扰国家认可更健康进口价格困扰国家认可更健康进口价格困扰国家认可更健康进口价格困扰国家认可更健康进口价格困扰
+			</view>
+		</view>
 	</view>
 </view>
-<view class="list">
-	<view class="imgList">
-		<image src="/images/gpxz.png"/>	
-	</view>
-	<view class="imgList">
-		<image src="/images/gpxz.png"/>	
-	</view>
-	<view class="imgList">
-		<image src="/images/gpxz.png"/>	
+<view class="item addr" bindtap="gotoThere">
+	<image src="/images/index/addr.png" />
+	<view class="itemCont">
+		鸣沙山一键导航
 	</view>
 </view>
-<view class="list">
-	<view class="imgList">
-		<image src="/images/gpxz.png"/>	
+<view class="gray">
+</view>
+<view class="nineImg">
+	<view class="list">
+		<navigator class="imgList" url="/pages/group/tic/index?id=19830">
+			<image src="/images/index/mpdg.png" />
+		</navigator>
+		<navigator class="imgList" url="/pages/group/hotel/index?id=22492">
+			<image src="/images/index/jdhy.png" />
+		</navigator>
+		<view class="imgList">
+			<image src="/images/index/xss.png" />
+		</view>
+
 	</view>
-	<view class="imgList">
-		<image src="/images/gpxz.png"/>	
+	<view class="list">
+		<navigator class="imgList" url="/pages/group/tour/index">
+			<image src="/images/index/lyzn.png" />
+		</navigator>
+		<navigator class="imgList" url="/pages/group/fun/index?id=22493">
+			<image src="/images/index/ylms.png" />
+		</navigator>
+		<navigator class="imgList" url="/pages/group/message/index">
+			<image src="/images/index/ykly.png" />
+		</navigator>
 	</view>
-	<view class="imgList">
-		<image src="/images/gpxz.png"/>	
+	<view class="list">
+		<navigator class="imgList" url="/pages/group/guide/index">
+			<image src="/images/index/dzdy.png" />
+		</navigator>
+		<navigator class="imgList" url="/pages/group/parking/index">
+			<image src="/images/index/tcjf.png" />
+		</navigator>
+		
+		<navigator class="imgList" url="/pages/group/live/index">
+			<image src="/images/index/kszb.png" />
+		</navigator>
 	</view>
+</view>
+<view class="gray">
+</view>
+<view class="articleImg" style="background-image:url(../../images/index/rxmp.png)">	
+</view>
+<view class="content">
+	<navigator class="msgList" s-for="tic" url="?id={{item.id}}">
+		<view class="listImg" style="background-image:url({{item.coverPhotoImg}})"></view>
+		<view class="msgCont">
+			<view class="name">{{item.name}}</view>
+			<view class="dis">{{item.description}}</view>
+			<view class="priceMsg">
+				<view class="truePrice">￥{{item.itemStatus.price}}</view>
+				<view class="dy">订阅</view>
+			</view>
+		</view>
+	</navigator>
+</view>
+<view class="gray">
+</view>
+<view class="articleImg articleImg2" style="background-image:url(../../images/index/xwzx.png)">
+</view>
+<view class="content">
+	<navigator class="msgList msgList2" s-for="news" url="?id={{item.id}}">
+		<view class="msgCont2">
+			<view class="name2">{{item.title}}</view>
+			<view class="dataMsg">
+				<view class="aboutMsg">作者：{{item.store.companyname}}</view>
+				<view class="aboutMsg aboutTime">{{item.createDate}}</view>
+				<view class="aboutMsg">观看：{{item.views}}</view>
+			</view>
+		</view>
+		<view class="listImg" style="background-image:url({{item.cover.filepath}})"></view>
+	</navigator>
 </view>
