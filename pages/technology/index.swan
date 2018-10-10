@@ -1,0 +1,3 @@
+<view class="container" s-for="img">
+    <image src="{{item.image_url}}" mode="scaleToFill" height="100%"/>
+</view>

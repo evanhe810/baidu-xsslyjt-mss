@@ -1,0 +1,8 @@
+Page({
+    data: {
+        nodes: '<h4 style="margin: 0px 0px 8px; padding: 0px 0px 0px 12px; font-size: 13px; line-height: 16px; border-left: 3px solid rgb(100, 161, 10);">开放时间</h4><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; font-size: 14px;">鸣沙山：5:00—20:30；敦煌古城：7:00-21:00</p><h4 style="margin: 0px 0px 8px; padding: 0px 0px 0px 12px; font-size: 13px; line-height: 16px; border-left: 3px solid rgb(100, 161, 10);">特惠政策</h4><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; font-size: 14px;"><br/></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; font-size: 14px;">A.免票政策：<br/>1).现役军人武警伤残军人、军队离退休干部、在校学员凭有效证件免费参观；70岁（含）以上老人凭有效证件、1.2米（含）以下儿童需成人带领免费参观； &nbsp;&nbsp;<br/>2).甘肃居民免票游：甘肃省居民持本人身份证，可以免票参观景区；<br/>3).院校师生研学游：景区对全国高校、大中专院校、中小学在校教师、学生(记住：是本科及以下奥)，凭本人有效身份证件及教师证、学生证免票参观景区;<br/>4).全国院线观影游：凡在各大院线影院购票观看《敦煌不了情》影片的观众，凭借纸质电影票免票参观景区。<br/>B.优惠政策：身高1.2(不含)-1.4米(含)儿童可以购买半价优惠票，学生凭学生证、 60岁（含）至69岁（含）老人凭有效证件购优惠票。（上述优惠政策仅供参考，以景区当天披露为准，需至景区自行购买）。</p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; font-size: 14px;"><br/></p><h4 style="margin: 0px 0px 8px; padding: 0px 0px 0px 12px; font-size: 13px; line-height: 16px; border-left: 3px solid rgb(100, 161, 10);">温馨提示</h4><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; font-size: 14px;">①预订门票包含项目详见各票型预订说明。<br/>②门票在您选定的旅游日当天有效（您可在旅游日当天初次出景区之前录入人脸识别，3天内可免费多次入园）。<br/>③为保证取票、入园顺利，预订时请务必填写真实姓名、手机号码等信息。</p><p><br/></p>'
+    },
+    tap() {
+        console.log('tap')
+    }
+})
