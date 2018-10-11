@@ -44,7 +44,7 @@ Page({
     showBanner: function () {
         let that = this;
         swan.request({
-            url: 'https://user.xisslvyou.com/api/template/component_side2/59236', //开发者服务器接口地址
+            url: app.getHttpUrl()+'/api/template/component_side2/59236', //开发者服务器接口地址
             method: 'GET',
             header: {
                 'content-type': 'application/json' // 默认值
@@ -68,7 +68,7 @@ Page({
     showNews: function () {
         let that = this;
         swan.request({
-            url: 'https://user.xisslvyou.com/api/article/getArticleNewByCount?store_id=1770&count=3', //开发者服务器接口地址
+            url: app.getHttpUrl()+'/api/article/getArticleNewByCount?store_id=1770&count=3', //开发者服务器接口地址
             success: function (res) {
                 that.setData({
                     news: res.data.body
@@ -84,7 +84,7 @@ Page({
     showTic: function () {
         let that = this;
         swan.request({
-            url: 'https://user.xisslvyou.com/api/item/store/1770?page_size=6&group_id=19830&page=0&sort=', //开发者服务器接口地址
+            url: app.getHttpUrl()+'/api/item/store/1770?page_size=6&group_id=19830&page=0&sort=', //开发者服务器接口地址
             method: 'GET',
             dataType: 'json',
             data: {

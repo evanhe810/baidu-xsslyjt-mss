@@ -6,7 +6,7 @@
 	<view class="user_name">
 		<open-data type="userNickName"></open-data>
 	</view>
-	<view class="orderMenu">
+	<!-- <view class="orderMenu">
 		<navigator class="orderMenuList" url="/pages/collect/collect">
 			<view class="menuImg2 orderSC">
 			</view>
@@ -25,7 +25,7 @@
 			<view class="orderKey">优惠券
 			</view>
 		</navigator>
-	</view>
+	</view> -->
 	<view class="orderCount">
 		<view class="orders">
 			<view class="orderAll">
@@ -47,10 +47,44 @@
 					<view class="menu-name">已完成
 					</view>
 				</navigator>
+				<navigator class="menu-list" url="/pages/order_list/order_list?type=4">
+					<view class="menuImg msg">
+					</view>
+					<view class="menu-name">待评价
+					</view>
+				</navigator>
 				<navigator class="menu-list" url="/pages/order_list/order_list?type=3">
 					<view class="menuImg back">
 					</view>
 					<view class="menu-name">退款
+					</view>
+				</navigator>
+			</view>
+		</view>
+	</view>
+	<view class="orderCount">
+		<view class="orders">
+			<view class="orderAll">
+				<view>更多功能
+				</view>
+			</view>
+			<view class="menu">
+				<navigator class="orderMenuList" url="/pages/collect/collect">
+					<view class="menuImg2 orderSC">
+					</view>
+					<view class="orderKey">收藏
+					</view>
+				</navigator>
+				<navigator class="orderMenuList" url="/pages/footprint/footprint">
+					<view class="menuImg2 orderZJ">
+					</view>
+					<view class="orderKey">足迹
+					</view>
+				</navigator>
+				<navigator class="orderMenuList" url="/pages/coupon/coupon">
+					<view class="menuImg2 orderYHQ">
+					</view>
+					<view class="orderKey">优惠券
 					</view>
 				</navigator>
 			</view>

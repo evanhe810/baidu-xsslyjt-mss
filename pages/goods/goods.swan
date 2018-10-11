@@ -7,13 +7,14 @@
 </swiper>
 <view class="head">
 	<view class="msg">
-		<view>
-			<text class="price">￥{{goods.itemStatus.price}}</text>
-			<text class="noPrice">￥{{goods.itemStatus.originPrice}}</text>
-		</view>
 		<view class="name">
 			{{goods.name}}
 		</view>
+		<view>
+			<text class="price"><text class="gray">￥</text>{{goods.itemStatus.price}}<text class="small">起</text></text>
+			<!-- <text class="noPrice">￥{{goods.itemStatus.originPrice}}</text> -->
+		</view>
+		
 	</view>
 	
 </view>

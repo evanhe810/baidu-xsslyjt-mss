@@ -21,6 +21,55 @@ page{
     justify-content: space-between;
     margin-top: 20rpx;
 }
+.articleTitle{
+    display:flex;
+    justify-content: space-between;
+    font-size: 32rpx;
+    font-weight: 600;
+    padding: 15rpx 20rpx;
+    border-bottom: 1px solid #f4f4f4;
+    margin-bottom: 20rpx;
+}
+.articleTitle .title{
+    display:flex;
+    line-height: 38rpx;
+}
+.watchMore{
+    font-size: 26rpx;
+    font-weight: normal;
+}
+.green{
+    background: #1bc71f;
+    width:4rpx;
+    height:35rpx;
+    border-radius: 5rpx;
+    margin-right: 15rpx;
+}
+.blue{
+    background: #00a0e9;
+    width:4rpx;
+    height:35rpx;
+    border-radius: 5rpx;
+    margin-right: 15rpx;
+}
+.discont{
+   display: flex; 
+   justify-content: space-between;
+}
+.disc{
+    width:300rpx;
+    display: -webkit-box; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp:3; 
+    color:#999;
+    font-size: 32rpx;
+    line-height: 40rpx;
+    min-height:70rpx;
+    margin: 10rpx 0;
+    letter-spacing: 1px;
+}
 .dis{
     display: -webkit-box; 
     overflow: hidden; 
@@ -37,6 +86,7 @@ page{
 .truePrice{
     color:#f00;
     font-size: 40rpx;
+    line-height: 140rpx;
 }
 .msgCont{
     width:560rpx;
@@ -60,7 +110,7 @@ page{
 .msgList{
     display: flex;
     margin-bottom: 20rpx;
-    
+
 }
 .msgList2{
 border-bottom: 1px solid #f4f4f4;
@@ -111,15 +161,12 @@ padding: 20rpx 0;
 }
 
 .dy{
-    border-radius: 20rpx;
-    height:40rpx;
-    text-align: center;
-    line-height: 42rpx;
-    background: #fcce2d;
-    color:#fff;
-    box-shadow: 1px 2px 1px #ccc;
-    width:120rpx;
-    font-size: 30rpx;
+    width:95rpx;
+    height:99rpx;
+    background-size:cover;
+    background-position:center; 
+    margin-top:16rpx; 
+    margin-left: 6rpx;
 }
 .articleImg{
     background-size:cover; 

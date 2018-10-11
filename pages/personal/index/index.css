@@ -26,9 +26,9 @@
 .orders{
   position: relative;
   background: #fff;
-  
+  margin-bottom:20rpx; 
   width:100%;
-  top:240px;
+  top:210px;
   border-radius: 8px;
   box-shadow: 1px 1px 1px 1px #ccc;
 }
@@ -90,11 +90,13 @@
 .menu-name{
   color:#000;
 margin-top:10px; 
+font-size: 30rpx;
 }
 .orderAll{
   display: flex;
   justify-content: space-between;
   padding: 12px 10px 12px 10px;
+  font-size: 30rpx;
   color:#444;
   border-bottom: 1px solid #eee;
 }
@@ -120,4 +122,5 @@ margin-top:10px;
 }
 .orderKey{
     margin-top:10px;
+    font-size: 30rpx;
 }

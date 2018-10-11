@@ -6,6 +6,7 @@ page{
 .slide-image{
     width:100%;
 }
+
 .weather{
     font-size: 30rpx;
     display: flex;

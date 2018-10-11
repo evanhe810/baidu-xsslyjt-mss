@@ -1,12 +1,13 @@
 {
     "pages": [
         "pages/index/index",
+        "pages/data/index",
+        "pages/group/tic/index",
         "pages/shop/shop",
         "pages/goods/goods",
         "pages/order_list/order_list",
         "pages/profile/profile",
         "pages/login/login",
-        "pages/group/tic/index",
         "pages/group/hotel/index",
         "pages/group/fun/index",
         "pages/group/tour/index",
@@ -16,8 +17,9 @@
         "pages/group/live/index",
         "pages/technology/index",
         "pages/personal/index/index",
-         "pages/introduce/index"
-        
+        "pages/introduce/index",
+        "pages/news/index",
+        "pages/goodsList/index"
     ],
     "window": {
         "navigationBarBackgroundColor": "#3ac939",

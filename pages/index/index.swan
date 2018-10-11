@@ -73,7 +73,7 @@
 		<navigator class="imgList" url="/pages/group/parking/index">
 			<image src="/images/index/tcjf.png" />
 		</navigator>
-		
+
 		<navigator class="imgList" url="/pages/group/live/index">
 			<image src="/images/index/kszb.png" />
 		</navigator>
@@ -81,27 +81,41 @@
 </view>
 <view class="gray">
 </view>
-<view class="articleImg" style="background-image:url(../../images/index/rxmp.png)">	
-</view>
+
+<navigator class="articleTitle" url="/pages/goodsList/index?type=1">
+	<view class="title">
+		<view class="green"></view>
+		<view>热销门票</view>
+	</view>
+	<view class="watchMore">查看更多></view>
+</navigator>
 <view class="content">
-	<navigator class="msgList" s-for="tic" url="?id={{item.id}}">
+	<navigator class="msgList" s-for="tic" url="/pages/goods/goods?id={{item.id}}">
 		<view class="listImg" style="background-image:url({{item.coverPhotoImg}})"></view>
 		<view class="msgCont">
 			<view class="name">{{item.name}}</view>
-			<view class="dis">{{item.description}}</view>
-			<view class="priceMsg">
-				<view class="truePrice">￥{{item.itemStatus.price}}</view>
-				<view class="dy">订阅</view>
+			<view class="discont">
+				<view class="disc">{{item.description}}</view>
+				<view class="priceMsg">
+					<view class="truePrice">￥{{item.itemStatus.price}}</view>
+					<view class="dy" style="background-image:url(../../images/index/d.png)"></view>
+				</view>
 			</view>
+
 		</view>
 	</navigator>
 </view>
 <view class="gray">
 </view>
-<view class="articleImg articleImg2" style="background-image:url(../../images/index/xwzx.png)">
-</view>
+<navigator class="articleTitle" url="/pages/goodsList/index?type=2">
+	<view class="title">
+		<view class="blue"></view>
+		<view>新闻资讯</view>
+	</view>
+	<view class="watchMore">查看更多></view>
+</navigator>
 <view class="content">
-	<navigator class="msgList msgList2" s-for="news" url="?id={{item.id}}">
+	<navigator class="msgList msgList2" s-for="news" url="/pages/news/index?id={{item.id}}">
 		<view class="msgCont2">
 			<view class="name2">{{item.title}}</view>
 			<view class="dataMsg">
